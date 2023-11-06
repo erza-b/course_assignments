@@ -7,10 +7,10 @@ def count_local_variables():
     a = 1
     b = 'hello'
     c = [1, 2, 3]
-    d = {'name': 'John', 'age': 30}
+    d = {'name': 'Erza'}
     
      
-    return locals()
+    return len(locals())
 
 num_locals = count_local_variables()
 print(f"Number of local variables in the function: {num_locals}")
